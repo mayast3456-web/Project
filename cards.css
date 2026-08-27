@@ -1,0 +1,124 @@
+.services {
+    padding: 80px 0px;
+}
+.servicesGrid {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.servicesGrid .btn--wide {
+    align-self: self-end;
+}
+.cards {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 40px;
+}
+.card {
+    position: relative;
+    overflow: hidden;
+    max-width: 544px; 
+    max-height: 544px;
+    border-radius: var(--radius-lg);
+    flex-shrink: 0; 
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.portfolioCard {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: var(--color-primary);
+    color: var(--gray-000);
+    padding: 20px 24px 44px;
+    border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+    max-height: 144px;
+}
+
+.portfolioControls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.servicesGrid h2 {
+    font-size: var(--fs-h2);
+    margin-bottom: 10px;
+    color: var(--color-primary);
+    font-weight: bold;
+}
+
+.servicesGrid h4 {
+    font-size: var(--fs-h4);
+    font-weight: 600;
+    color: var(--gray-000s);
+}
+
+.servicesGrid p {
+    font-size: var(--fs-body-l);
+    line-height: 24px;
+    font-weight: 400;
+    max-width: 496px;
+    margin-bottom: 60px;
+}
+
+.portfolioSlider {
+    position: relative;
+    width: 100%;
+}
+
+
+.portfolioTrack {
+    display: flex;
+    gap: 24px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.progressBar {
+    height: 4px;
+    background: var(--gray-300);
+    border-radius: 2px;
+    position: relative;
+    flex: 1;
+    min-width: 100px;
+}
+
+.progress {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+/* .sliderBtn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.sliderBtn--next{
+    right: -32px;
+}
+
+.sliderBtn--prev{
+    left: -32px;
+} */
+
+
+.servicesDesc {
+    font-size: var(--fs-body-l);
+    color: var(--color-secondary);
+    font-weight: 400;
+    min-width: 700px;
+}

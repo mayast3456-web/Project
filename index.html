@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuildWise</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="tokens.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- HEADER -->
+        <header class="header">
+            <a href="#" class="logo">
+                <img src="assets/icons/logo.svg" alt="BuildWise">
+            </a>
+
+        <div class="linkMenu">
+            <nav class="navlinks" id="nav">
+                <a href="#main" class="navlink">Main</a>
+                <a href="#portfolio" class="navlink">Portfolio</a>
+                <a href="#price" class="navlink">Price</a>
+                <a href="#certifications" class="navlink">Certifications</a>
+                <a href="#contacts" class="navlink">Contacts</a>
+
+                <a href="tel:+447755555764" class="btn btn--primary btn--medium navPhone">
+                    <span>(+44) 7755-555-764</span>
+                    <img src="assets/icons/phone_icon.svg" alt="">
+                </a>
+            </nav>
+        </div>
+
+        <a href="tel:+447755555764" class="btn btn--primary btn--medium headerPhone">
+            <span>(+44) 7755-555-764</span>
+            <img src="assets/icons/phone_icon.svg" alt="">
+        </a>
+
+            <button class="burger" id="burger" type="button" aria-label="Open menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </header>
+        
+        <main id="main">
+            <section class="hero">
+                <div class="heroContent">
+                    <h1>Construction services</h1>
+                    <p>From residential renovations to large-scale commercial projects — we bring craftsmanship, reliability, and precision to every build.</p>
+                    <button class="btn btn--primary btn--wide">Request a free quote</button>
+                </div>
+                <div class="heroImage">
+                    <img src="assets/images/HeroImage.png" alt="">
+                </div>
+            </section>
+        </main>
+
+        <!-- ABOUT -->
+        <section class="about" id="about">
+            <div class="aboutGrid">
+                <div class="aboutContent">
+                    <h2>About us</h2>
+                    <p>At BuildWise, we believe every project is more than bricks and mortar — it's a vision brought to life. For over 20 years, we've been delivering high-quality construction solutions for homeowners, businesses, and developers.</p>
+                    <p>Our team combines expert craftsmanship, innovative design, and uncompromising safety standards to ensure every build is done right the first time. From initial planning to the final walkthrough, we work closely with our clients, keeping communication clear and expectations aligned.</p>
+                    <p>Our mission is simple: to build spaces that inspire, serve, and last for generations.</p>
+                    <a href="#" class="btn btn--primary btn--wide">More about us</a>
+                </div>
+                <div class="aboutMedia">
+                    <img src="assets/images/AboutImage.png" alt="">
+                </div>
+            </div> 
+        </section>
+
+    <section class="block2" id="portfolio">
+
+        <div class="block2Content">
+            <h2>Our portfolio</h2>
+            <p>From sleek modern homes to large-scale commercial complexes, our projects reflect the skill, precision, and dedication we bring to every build. Each one tells a story of careful planning, expert execution, and lasting quality.</p>
+        </div>
+
+            <div class="slider">
+                <div class="swiper portfolio-slider">
+                    <div class="swiper-wrapper">
+
+                        <!-- Слайд 1 -->
+                        <div class="swiper-slide">
+                            <div class="cardPortfolio cardP1">
+                                <div class="cardPortfolioText">
+                                    <h4>Metro Office Hub</h4>
+                                    <p>Complete office fit-out for a 10,000 sq ft corporate headquarters.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Слайд 2 -->
+                        <div class="swiper-slide">
+                            <div class="cardPortfolio cardP2">
+                                <div class="cardPortfolioText">
+                                    <h4>Riverside Heights</h4>
+                                    <p>Luxury residential complex with panoramic views and eco-friendly design.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Слайд 3 -->
+                        <div class="swiper-slide">
+                            <div class="cardPortfolio cardP3">
+                                <div class="cardPortfolioText">
+                                    <h4>Hillside Villa Renovation</h4>
+                                    <p>Full interior and exterior remodel blending classic charm with modern finishes.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Слайд 4 -->
+                        <div class="swiper-slide">
+                            <div class="cardPortfolio cardP4">
+                                <div class="cardPortfolioText">
+                                    <h4>Hillside Villa Restoration </h4>
+                                    <p>Complete restoration of a heritage property, blending classic architecture with modern comforts.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Слайд 5 -->
+                        <div class="swiper-slide">
+                            <div class="cardPortfolio cardP5">
+                                <div class="cardPortfolioText">
+                                    <h4>Riverside Heights Residences </h4>
+                                    <p> A modern riverside apartment complex with energy-efficient design and panoramic city views.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Слайд 6 -->
+                        <div class="swiper-slide">
+                            <div class="cardPortfolio cardP6">
+                                <div class="cardPortfolioText">
+                                    <h4>Maple Grove Townhomes </h4>
+                                    <p>A stylish suburban development offering comfort, community, and convenience.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+                <!-- кнопки -->
+                <div class="swiper-button-prev buttonSwipeLeft"><img src="assets/icons/arrow-2.svg" alt=""></div>
+                <div class="swiper-button-next buttonSwipeRight"><img src="assets/icons/arrow-2.svg" alt=""></div>
+                
+                <!-- прогресс -->
+                <div class="portfolio-progress">
+                    <span class="progress-fraction">01/02</span>
+                    <div class="progress-bar">
+                        <div class="progress-fill"></div>
+                    </div>
+                </div>
+                
+                <div class="block2Button">
+                    <a class="btn btn--primary btn--wide" href="">View Full Portfolio<img class="" src="assets/icons/arrow-2.svg" alt=""></a>
+                </div>
+                
+            </div>
+    </section>
+
+
+        <!-- CERTIFICATIONS -->
+        <section class="certifications" id="certifications">
+            <div class="certificationsContent">
+                <h2>Certifications & credentials</h2>
+                <p class="bodylCertifications">We believe great construction starts with strong foundations — not just in buildings, but in professional standards.
+                    Our team holds industry-recognized certifications that ensure your project meets the highest levels of safety, quality, and compliance.</p>
+                <div class="cardsCertifications">
+                    <div class="cardCertification">
+                        <div class="text">
+                            <h4>Fully Licensed & Insured</h4>
+                            <p>Commitment to quality management in every process.</p>
+                            <p class="year">2025</p>
+                            <p class="winner">Winner</p>
+                        </div>
+                        <div class="iconMedal">
+                            <img src="assets/icons/workspace_premium_icon.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="cardCertification">
+                        <div class="text">
+                            <h4>ISO 9001:2015 Certified</h4>
+                            <p>Commitment to quality management in every process.</p>
+                            <p class="year">2023, 2024, 2025</p>
+                            <p class="winner">Winner</p>
+                        </div>
+                        <div class="iconMedal">
+                            <img src="assets/icons/workspace_premium_3medals_icon.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="cardCertification">
+                        <div class="text">
+                            <h4>OSHA Safety Certified</h4>
+                            <p>Ensuring safe practices on every job site.</p>
+                            <p class="year">2025</p>
+                        </div>
+                        <div class="iconMedal">
+                            <img src="assets/icons/workspace_premium_round_icon.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="cardCertification">
+                        <div class="text">
+                            <h4>LEED Accredited Professionals</h4>
+                            <p>Expertise in sustainable, eco-friendly building.</p>
+                            <p class="year">2025</p>
+                        </div>
+                        <div class="iconMedal">
+                            <img src="assets/icons/workspace_premium_round_icon.svg" alt="">
+                        </div>
+                    </div>
+                    
+                    <div class="cardCertification">
+                        <div class="text">
+                            <h4>Licensed General Contractor</h4>
+                            <p>Recognized by industry leaders.</p>
+                            <p class="year">2025</p>
+                        </div>
+                        <div class="iconMedal">
+                            <img src="assets/icons/workspace_premium_icon.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="cardCertification">
+                        <div class="text">
+                            <h4>OSHA Safety Trained</h4>
+                            <p>Compliant with all local and national regulations</p>
+                            <p class="year">2023, 2024, 2025</p>
+                            <p class="winner">Winner</p>
+                        </div>
+                        <div class="iconMedal">
+                            <img src="assets/icons/workspace_premium_3medals_icon.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn btn--primary btn--wide">View All Certifications
+                    <img src="/Project/assets/icons/arrowForwardRight.svg" alt="">
+                </a>
+            </div>
+        </section>
+
+        
+        <!-- PARTNERS -->
+        <section class="block4">
+
+        <div class="block4Content"> 
+            <h2>Trusted partners</h2>
+            <p>We believe great construction happens through strong partnerships. Over the years, we've teamed up with leading suppliers, architects, and industry organizations to ensure every project gets the best materials, expertise, and technology available.</p>
+        </div>
+        
+        <div class="slider">
+            <div class="slider swiper single-slider">
+                <div class="swiper-wrapper">
+                    
+                    <!-- Слайд 1 -->
+                    <div class="swiper-slide">
+
+                        <div class="cardPartners cardPartners1">
+                            <div class="cardPartnersText">
+                                <h3>CityPoint Retail Center</h3>
+                                <p>From sleek modern homes to large-scale commercial complexes, our projects reflect the skill, precision, and dedication we bring to every build. Each one tells a story of careful planning, expert execution, and lasting quality.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                    <!-- Слайд 2 -->
+                    <div class="swiper-slide">
+
+                        <div class="cardPartners cardPartners2">
+                            <div class="cardPartnersText">
+                                <h3>Oakwood Family Estate</h3>
+                                <p>Luxury interior transformation with premium finishes and smart-home integration. A modern riverside apartment complex with energy-efficient design and panoramic city views.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                    <!-- Слайд 3 -->
+                    <div class="swiper-slide">
+
+                        <div class="cardPartners cardPartners3">
+                            <div class="cardPartnersText">
+                                <h3>Skyline Penthouse Remode</h3>
+                                <p>A stylish suburban development offering comfort, community, and convenience. Complete restoration of a heritage property, blending classic architecture with modern comforts.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            
+            <!-- кнопки -->
+            <div class="swiper-button-prev buttonSwipeLeft single-prev"><img src="assets/icons/arrow-2.svg" alt=""></div>
+            <div class="swiper-button-next buttonSwipeRight single-next"><img src="assets/icons/arrow-2.svg" alt=""></div>
+            
+            <!-- прогресс -->
+            <div class="portfolio-progress single-progress">
+
+                <span class="progress-fraction">01/02</span>
+                <div class="progress-bar">
+                    <div class="progress-fill"></div>
+                </div>
+
+            </div>
+            
+            <div class="block4Button">
+                <a class="btn btn--primary btn--wide" href="">View Full Portfolio<img class="" src="assets/icons/arrow-2.svg" alt=""></a>
+            </div>
+            
+        </div>
+    </section>
+
+ <section class="block5">
+        <h2>Frequently asked questions</h2>
+        
+        <div class="accordion">
+            
+            <!-- Вопрос 1 -->
+            <div class="accordion-item">
+
+                <div class="accordion-header">
+                    <h4>What types of construction projects do you handle?</h4>
+                    <div class="accordion-button"><img src="assets/icons/arrow.svg" alt=""></div> 
+                </div>
+                <div class="accordion-content">
+                    <p>Project timelines vary depending on scope and complexity. We'll provide a detailed schedule after our initial consultation and keep you updated at every stage.</p>
+                </div>
+
+            </div>
+            
+            <!-- Вопрос 2 -->
+            <div class="accordion-item active">
+
+                <div class="accordion-header">
+                    <h4>How long will my project take?</h4>
+                    <div class="accordion-button"><img src="assets/icons/arrow.svg" alt=""></div>
+                </div>
+                <div class="accordion-content">
+                    <p>Project timelines vary depending on scope and complexity. We'll provide a detailed schedule after our initial consultation and keep you updated at every stage.</p>
+                </div>
+
+            </div>
+            
+            <!-- Вопрос 3 -->
+            <div class="accordion-item">
+
+                <div class="accordion-header">
+                    <h4>Do you provide cost estimates before starting?</h4>
+                    <div class="accordion-button"><img src="assets/icons/arrow.svg" alt=""></div>
+                </div>
+                <div class="accordion-content">
+                    <p>Project timelines vary depending on scope and complexity. We'll provide a detailed schedule after our initial consultation and keep you updated at every stage.</p>
+                </div>
+
+            </div>
+
+            <!-- Вопрос 4 -->
+            <div class="accordion-item">
+
+                <div class="accordion-header">
+                    <h4>Are you licensed and insured?</h4>
+                    <div class="accordion-button"><img src="assets/icons/arrow.svg" alt=""></div>
+                </div>
+                <div class="accordion-content">
+                    <p>Project timelines vary depending on scope and complexity. We'll provide a detailed schedule after our initial consultation and keep you updated at every stage.</p>
+                </div>
+
+            </div>
+
+            <!-- Вопрос 5 -->
+            <div class="accordion-item">
+
+                <div class="accordion-header">
+                    <h4>Can you work with my own architect or designer?</h4>
+                    <div class="accordion-button"><img src="assets/icons/arrow.svg" alt=""></div>
+                </div>
+                <div class="accordion-content">
+                    <p>Project timelines vary depending on scope and complexity. We'll provide a detailed schedule after our initial consultation and keep you updated at every stage.</p>
+                </div>
+
+            </div>
+
+            <!-- Вопрос 6 -->
+            <div class="accordion-item">
+
+                <div class="accordion-header">
+                    <h4>Do you offer eco-friendly building options?</h4>
+                    <div class="accordion-button"><img src="assets/icons/arrow.svg" alt=""></div>
+                </div>
+                <div class="accordion-content">
+                    <p>Project timelines vary depending on scope and complexity. We'll provide a detailed schedule after our initial consultation and keep you updated at every stage.</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="callToAction">
+        <div class="callToActionGrid">
+            <div class="callToActionContent">
+            <h2>Start your project<br>today!</h2>
+            <p class="ctaTitle">Tell us about your construction needs, and our team will get back to you with a detailed proposal.</p>
+            <p class="ctaTitle">Once we receive your application, one  of our project managers will contact you within 24 hours to discuss your goals, budget, and next steps.</p>
+
+            <form class="ctaForm">
+                <div class="inputButton">
+                    <input class="ctaInput" type="email" placeholder="Phone Number" required>
+                    <button class="btn btn--small--white" type="submit">Submit</button>
+                </div>
+            </form>
+
+            <p class="ctaNote">By sending this form you agree to our privacy policy.</p>
+        </div>
+
+        <div class="ctaMedia">
+            <img src="assets/images/ImageCallToAction.png" alt="">
+        </div>
+    </div>
+    </section>
+
+        <!-- FOOTER -->
+        <footer class="footer" id="contacts">
+            <div class="footerGrid">
+                <div class="footerLogo">
+                    <a href="#" class="logo">
+                        <img src="assets/icons/logo.svg" alt="BuildWise">
+                    </a>
+                    <p class="copyright">© 2023 Company</p>
+                    <div class="socials">
+                        <a href="https://instagram.com" class="socialLink"><img src="assets/icons/instagram.svg" alt="Instagram"></a>
+                        <a href="https://telegram.org" class="socialLink"><img src="assets/icons/Telegram.svg" alt="Telegram"></a>
+                        <a href="https://twitter.com" class="socialLink"><img src="assets/icons/twitter.svg" alt="Twitter"></a>
+                        <a href="https://facebook.com" class="socialLink"><img src="assets/icons/facebook.svg" alt="Facebook"></a>
+                    </div>
+                </div>
+
+                <div class="footerNavLinks">
+                    <a href="#" class="footerNav">Main</a>
+                    <a href="#" class="footerNav">Portfolio</a>
+                    <a href="#" class="footerNav">Price</a>
+                    <a href="#" class="footerNav">Certifications</a>
+                    <a href="#" class="footerNav">Contacts</a>
+                </div>
+
+                <div class="footerContact">
+                    <h4>Tell us about your construction needs</h4>
+                    <p>Once we receive your application, one of our project managers will contact you within 24 hours to discuss your goals, budget, and next steps.</p>
+                    <form class="footerForm">
+                        <input class="footerInput" type="tel" placeholder="Phone Number" required>
+                        <button class="btn btn--small--primary" type="submit">Submit</button>
+                    </form>
+                </div>  
+            </div>
+        </footer>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
